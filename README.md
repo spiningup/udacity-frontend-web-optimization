@@ -1,5 +1,5 @@
-# Udacity frontend web developer nanodegree project - Web Optimization
-Checkout here: https://spiningup.github.io/udacity-frontend-web-optimization/
+# Udacity FEND Project - Web Optimization
+Optimized website here: https://spiningup.github.io/udacity-frontend-web-optimization/
 
 ## Part 1 - PageSpeed Score
 ### _Goal: index.html achieves a PageSpeed score of at least 90 for Mobile and Desktop._
