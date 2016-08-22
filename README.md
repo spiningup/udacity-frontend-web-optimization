@@ -1,5 +1,5 @@
 ## Part 1 - PageSpeed Score
-### - Goal: index.html achieves a PageSpeed score of at least 90 for Mobile and Desktop.
+### _Goal: index.html achieves a PageSpeed score of at least 90 for Mobile and Desktop._
 
 ### Steps taken:
 1. Add async to loading analytics.js
@@ -21,7 +21,7 @@
 ```
 
 ## Part 2 - Getting Rid of Jank
-### - Goal: Make 'views/pizza.html' render at 60fps when scrolling.
+### _Goal: Make 'views/pizza.html' render at 60fps when scrolling._
 
 ### Steps taken:
 1. 'document.body.scrollTop' does not change, so move it to outside the loop:
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
   for (var i = 0; i < n; i++) {
 ```
 
-### - Goal: Time to resize pizzas is less than 5 ms using pizza size slider.
+### _Goal: Time to resize pizzas is less than 5 ms using pizza size slider._
 
 ### Steps taken:
 1. Remove function 'determineDx' in 'main.js' and simplify 'changePizzaSizes'
